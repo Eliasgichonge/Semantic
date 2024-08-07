@@ -1,0 +1,129 @@
+
+/*body{background-color:#fdfcfb9c}*/
+table#output, table#output td 
+	{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	text-align: center;
+	letter-spacing: 2px;
+	padding:9px;spacing:10px;
+	}
+td#regular, td#last{color:darkblue;background-color:;}
+
+div.tableTitle{margin:18px; font-size:16px; color:darkblue; font-weight:bold; font-family:verdana; letter-spacing:;}
+
+div.resultLast{margin:18px; font-size:16px; color:darkblue; font-weight:bold; font-family:verdana; letter-spacing: 1px}
+
+span.red{color:#e10303}
+
+span.green{color:forestgreen}
+
+table.form{margin-top:0px}
+
+table.form td{width:200px; padding:3px; margin-top:100px;}
+
+
+textarea.proposition, textarea.argument,textarea.conclusion
+	{
+	max-height: 32px; min-height: 32px; 
+	background:#f6fdfb; border: 2px solid #5f5f8e; font-size:18px;
+	padding-top:7px;padding-left:3px; font-family:verdana;letter-spacing: 1px;
+	white-space: nowrap; overflow:hidden; overflow-wrap: normal;
+	}
+
+textarea.proposition{min-width:400px; max-width: 800px;}
+
+textarea.argument, .conclusion{min-width:400px; max-width: 500px;}
+
+textarea.conclusion{min-width:200px; max-width: 300px;}
+
+
+
+
+form{margin:10px}
+
+td#arrow{font-weight:bold;font-size:40px}
+
+td.proposition, td.argument, td#operation{font-size:20px; color:darkblue; font-weight:bold; font-family:calibri}
+
+table#argumentLabel{display:none}
+
+table#propositionLabel{display:none}
+
+#submitBtn1, #submitBtn2{display:none}
+
+table#logicalSymbols{display:none}
+
+input[type=submit]{cursor:pointer;float:center;font-weight:bold; margin:10px; color:darkblue}
+
+select{font-size:16px; padding:3px; font-family:calibri; color:darkblue; border: 2px solid #5f5f8e;}
+
+div.symbols
+	{
+	box-shadow: 0 1px 0px #B7B7B7,inset 0 1px 0 white;
+	border: 1px solid #B7B7B7;
+	width: 26px;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	text-align: center;
+	margin-right:5px;
+	color: #404040;
+	font-family:calibri;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 2px;
+	cursor: pointer;
+	float:left;
+	background-image: linear-gradient(#F1F1F1, #E1E1E1);
+	}
+	
+div.watermark
+	{
+	position:fixed;
+	opacity:0.1;
+	left:160px;
+	margin-top:130px;
+	z-index:99;
+	color:blue;
+	font-size:100px;
+	-webkit-transform: rotate(-30deg); 
+	-moz-transform: rotate(-30deg); 
+	letter-spacing: 50px;
+
+	}
+
+div.centered{bottom:0px; width:99%; border-top:1px solid grey; padding:5px; position:fixed; text-align:center; color:#07888e94; font-family:calibri;font-size:15px; font-weight:bold;font-style:italic; background-color:#f9f1f1}
+
+td.header{background-color:honeydew}
+
+div.symbols:hover{background-image: linear-gradient(#FFF, #DBB9B9); font-size: 16px;}
+
+div.tdSymbols
+	{
+	background: #ffffff;
+	border: 1px solid #c2e1f5;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	padding: 3px;
+	margin-top: 1px;
+	margin-left: 100px;
+	height: 26px;
+	width: 165px;
+	padding-left:3px;
+	padding-right:0px;
+	}
+	
+td#tdcheckbox{display:none}
+
+label#includeTruthtable{font-size:15px;}
+
+input#includeTruthtable{cursor: pointer;}/*#fdfcfb*/
+
+div.upper{background-color:; width:100%}
+
+div.lower{background-color:; width:100%; margin-bottom:50px}
+
+span.error{color:red; font-weight:bold; font-size:22px; font-family:calibri;letter-spacing: 1px; font-style:italic}
+
+span.warning{color:orange; font-weight:bold; font-size:20px; font-family:calibri;letter-spacing:; font-style:italic}	
